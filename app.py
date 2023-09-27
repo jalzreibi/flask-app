@@ -3,7 +3,7 @@ import os
 from mysql.connector import Error
 from flask import Flask
 
-seasons = [ 'WINTER', 'SUMMER' ]
+seasons = [ 'AUTUMN' , 'WINTER', 'SPRING', 'SUMMER' ]
 
 DB_HOST=os.environ.get('DB_HOST')
 DB_NAME=os.environ.get('DB_NAME')
